@@ -1,0 +1,61 @@
+/* Chat*/
+#frame #sidepanel,
+#frame .content .contact-profile p,
+#frame .content .contact-profile img,
+#frame #sidepanel #profile .wrap img.online,
+#frame #sidepanel #profile .wrap p,
+#frame #sidepanel #contacts ul li.contact .wrap img,
+#frame .content .messages ul li img,
+#frame .content .message-input .wrap input,
+#frame .content .messages ul li.sent img,
+#frame .content .messages ul li.sent p,
+#frame #sidepanel #profile .wrap #expanded label{
+	float: right !important;
+}
+#frame .content,
+#frame .content .contact-profile .social-media,
+#frame #sidepanel #profile .wrap i.expand-button,
+#frame .content .message-input .wrap button,
+#frame .content .messages ul li.replies img,
+#frame .content .messages ul li.replies p,
+#frame #sidepanel #profile .wrap #expanded input{
+	float: left !important;
+}
+
+#frame #sidepanel #search label{
+	right: auto;
+	left: 5px;
+}
+#frame #sidepanel #contacts ul li.contact .wrap span{
+	left: auto !important;
+	right: 0 !important;
+}
+#frame .content .message-input .wrap .attachment{
+	right: auto !important;
+	left: 50px !important;
+	margin-top: 0;
+}
+#frame #sidepanel #contacts ul li.contact .wrap .meta{
+	text-align: right;
+	margin-right: 60px;
+}
+#frame .content .message-input .wrap input,
+#frame #sidepanel #contacts ul li.contact .wrap .meta .preview{
+	direction: rtl;
+}
+#frame #sidepanel #search input{
+	width: 100%;
+}
+#frame #sidepanel #profile .wrap #status-options.active,
+#frame #sidepanel #profile .wrap #status-options:before{
+	left: auto;
+	right: 22px;
+}
+#frame #sidepanel #profile .wrap #status-options ul li span.status-circle{
+	left: auto;
+	right: 5px;
+}
+#frame #sidepanel #profile .wrap #status-options ul li p{
+	padding-left: 0;
+	padding-right: 25px;
+}

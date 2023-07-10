@@ -1,0 +1,43 @@
+{
+  "name": "badee/payfort",
+  "description": "Badee Payfort is a simple package to process payments throught Payfort payment gateway.",
+  "keywords": [
+    "http",
+    "payment",
+    "payfort",
+    "laravel payfort"
+  ],
+  "authors": [
+    {
+      "name": "Mohammed Fathi",
+      "email": "mohammedfathi92@gmail.com"
+    }
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "^6.0|^7.0|^8.0",
+    "nesbot/carbon": "^2.3",
+    "guzzlehttp/guzzle": "^6.3.1|^7.0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">= 7.5",
+    "fabpot/goutte": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BadeePayfort\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "BadeePayfort\\Providers\\PayfortServiceProvider"
+        ],
+        "aliases": {
+            "Payfort": "BadeePayfort\\Facades\\Payfort"
+        }
+    }
+  }
+}
